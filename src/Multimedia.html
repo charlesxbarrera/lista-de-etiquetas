@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>lista de etiquetas</title>
+    <link rel="stylesheet" type="text/css" href="css/tema.css" >
+</head>
+<body>
+    <main>
+        <header id="hprincipal">
+           <div class="logo"></div> 
+           <h1>Lista de etiquetas</h1>
+        </header>
+        <nav class="menu">
+           <ul>
+             <li><a class="activo" href="index.html">Estructurales</a></li>
+             <li><a class="activo" href="multimedia.html">Multimedia</a></li>
+             <li><a href="control.html">control</a></li>
+           </ul>  
+        </nav>
+        <div id="contenedor_principal">
+            <!--Estructura de la tabla -->
+            <table>
+                <caption>etiquetas estructurales</caption>
+                <thead> <!-- Cabecera de la tabla <thead> -->
+                    <tr> <!-- fila de la tabla en la cabecera <tr> -->
+                        <th>Etiqueta</th> <!-- Columna de la tabla en la cabecera <th> -->
+                        <th>Descripcion</th>
+                        <th>Propiedades</th>
+                        <th>Ejemplo</th>
+                    </tr>
+                </thead>
+                <tbody><!-- cuerpo de la tabla <tboody> -->
+                    <tr><!-- Estructura para representar filas <tr> (n-repeat) -->
+                        <td>< a ></td><!-- Estructura para representar columnas <td> -->
+                        <td>Link </td>
+                        <td>Propiedades href</td>
+                        <td>.....</td>
+                    </tr>
+                    <tr>
+                        <td>< dic ></td>
+                        <td>div </td>
+                        <td>prodiedades id</td>
+                        <td>.....</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            < audio controls>
+                                <br>
+                                < source src="horse.ogg" type="audio/ogg">
+                                <br>
+                                < source src="horse.mp3" type="audio/mpeg"
+                                <br>
+
+                            </audio>
+                        </td>
+                        <td>
+                            <p>
+                                before HTML5, audio files could only by played in a browser with
+                                a plug-in (like flash). The HTML5 <b>< audio></audio></b> element
+                                specifies a standard way to embed audio in a web page
+                            </p>
+                        </td>
+                        <td>
+                            <p><b>autoplay:</b>un atributo booleano; si se especifica.</p>
+                            <p><b>autobuffer:</b>Un atributo booleano; si se especifica.</p>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="assets/horse.ogg" type="audio/ogg">
+                                <source src="assets/horse.mp3" type="audio/mpeg">
+                                your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- finaliza -->
+        </div>
+        <footer id="fprincipal">
+            <div>todos los derechos reservados por el sena.</div>
+        </footer>
+    </main>
+    
+</body>
+</html>
+
+    

@@ -1,0 +1,125 @@
+@font-face{
+    font-family:"Aarvark Cafe";
+    src: url("../assets/tipografia.ttf");
+}
+
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(../assets/bg.PNG);
+    font-family: Arial;
+}
+
+
+main{
+    position: relative;
+    border: 1px solid #000;
+    width: 1000px;
+    min-height: 300px;
+    margin: 20px auto;
+    background-color:rgba(255,255,255,.8);
+}
+
+/*Header*/
+header#hprincipal{
+    font-family: "Aarvark Cafe" !important;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #000;
+    background-image: url(../assets/bgh.png);
+    }
+
+header#hprincipal .logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top:30px;
+    left: 30px;
+    background-image: url(../assets/logo.png);
+    background-size: 100%;
+}
+
+header#hprincipal h1{
+    position: absolute;
+    left: 150px;
+    top:60px;
+}
+/* Nav / Menu */
+nav.menu{
+    border-bottom: 1px solid #000;
+    position: relative;
+    background-color: #000;
+}
+
+nav.menu ul{
+    position: relative;
+    width: 100%;
+}
+
+nav.menu ul li{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+}
+
+nav.menu ul li a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+/* link */
+nav.menu ul li a:hover,
+nav.menu ul li a.activo{
+    background-color: #e44a22;
+}
+
+/* Table estructura general */
+Table, tr, td, th{
+    border: 1px solid#999;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table{
+    position: relative;
+    width: 95%;
+    margin: 20px auto;
+}
+
+table thead{
+    background-color: #000;
+    color: #fff;
+}
+/* Filas colores alternos */
+table tbody tr:nth-child(odd){
+    background-color: rgba(0,0,0,.1);
+}
+
+table tbody tr:nth-child(even){
+    background-color: rgba(241,101,41,.3);
+}
+/* footer */
+footer#fprincipal{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-top: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    background-image: url(../assets/bgf.png);
+}
+
+footer#fprincipal small{
+    position: relative;
+    top: 30px;
+}
