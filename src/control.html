@@ -29,19 +29,78 @@
                         <th>Ejemplo</th>
                     </tr>
                 </thead>
-                <tbody><!-- cuerpo de la tabla <tboody> -->
-                    <tr><!-- Estructura para representar filas <tr> (n-repeat) -->
-                        <td>< a ></td><!-- Estructura para representar columnas <td> -->
-                        <td>Link </td>
-                        <td>Propiedades href</td>
-                        <td>.....</td>
+                <thead>
+                <tr>
+                 <th>Etiqueta</th>
+                 <th>Descripción</th>
+                 <th>Propiedades / Atributos</th>
+                 <th>Ejemplo</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td>&lt;button&gt;</td>
+                      <td>Botón interactivo que puede enviar formularios o ejecutar scripts.</td>
+                      <td>type (button, submit, reset), disabled, name, value</td>
+                      <td><button type="button">Click me</button></td>
                     </tr>
                     <tr>
-                        <td>< dic ></td>
-                        <td>div </td>
-                        <td>prodiedades id</td>
-                        <td>.....</td>
+                      <td>&lt;input&gt;</td>
+                      <td>Entrada de datos de varios tipos (texto, contraseña, número, archivo, etc.).</td>
+                      <td>type, name, value, placeholder, checked, disabled</td>
+                      <td><input type="text" placeholder="Escribe aquí"></td>
                     </tr>
+                    <tr>
+                       <td>&lt;select&gt;</td>
+                       <td>Menú desplegable para elegir opciones.</td>
+                       <td>name, multiple, size, disabled</td>
+                       <td>
+                         <select>
+                             <option>Opción 1</option>
+                              <option>Opción 2</option>
+                          </select> 
+                        </td>
+                   </tr>
+                   <tr>
+                      <td>&lt;textarea&gt;</td>
+                      <td>Área de texto para escribir varias líneas.</td>
+                      <td>name, rows, cols, placeholder, disabled</td>
+                      <td><textarea rows="4" cols="30" placeholder="Escribe tu mensaje"></textarea></td>
+                   </tr>
+                   <tr>
+                      <td>&lt;label&gt;</td>
+                       <td>Etiqueta descriptiva para un control de formulario.</td>
+                      <td>for (id del input)</td>
+                      <td><label for="nombre">Nombre:</label><input id="nombre" type="text"></td>
+                   </tr>
+                   <tr>
+                      <td>&lt;fieldset&gt;</td>
+                      <td>Agrupa controles relacionados dentro de un formulario.</td>
+                      <td>disabled, name</td>
+                      <td>
+                         <fieldset>
+                             <legend>Datos personales</legend>
+                              input type="text" placeholder="Nombre">
+                         </fieldset>
+                        </td>
+                   </tr>
+                   <tr>
+                       <td>&lt;output&gt;</td>
+                       <td>Muestra el resultado calculado de un formulario o script.</td>
+                       <td>name, for</td>
+                       <td><output name="resultado">0</output></td>
+                    </tr>
+               </tbody>
+           </table>
+                <tbody><!-- cuerpo de la tabla <tboody> -->
+                    <tr><!-- Estructura para representar filas <tr> (n-repeat) -->
+                        <td></td><!-- Estructura para representar columnas <td> -->
+                        
+                    </tr>
+                  
+
+                </tbody>
+                
                 </tbody>
             </table>
             <!-- finaliza -->
